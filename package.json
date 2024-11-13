@@ -1,0 +1,14 @@
+{
+  "name": "tailwind_megamenu",
+  "version": "1.0.0",
+  "description": "This is a megamenu and dropdownmenu with TailwindCSS",
+  "main": "index.html",
+  "scripts": {
+    "build": "npx tailwindcss -i ./src/tailwind.css -o ./output/tailwind.css --watch"
+  },
+  "author": "Md. Omar Faruq Serniabat (OFS)",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.14"
+  }
+}
