@@ -32,9 +32,64 @@
 
             <!-- Begin Menu -->
             <div>
-                <ul id="menuList" class="absolute left-[-100%] top-[60px] w-full bg-white md:static flex gap-4 flex-col md:flex-row md:justify-center md:items-center transition-all duration-700">
+                <ul id="menuList" class="absolute left-[-100%] top-[60px] w-full bg-white md:static flex gap-2 flex-col md:flex-row md:justify-center md:items-center transition-all duration-700">
                     <li><a href="#" class="menu-item"> Home </a></li>
-                    <li><a href="#" class="menu-item"> Mega Menu </a></li>
+                    <li class="group lg:relative">
+                        <a href="#" class="menu-item"> Mega Menu </a>
+                        
+                        <div class="grid grid-cols-4 w-full lg:w-[700px] lg:mx-auto p-5 absolute left-0 bg-white mt-14 opacity-0 invisible group-hover:opacity-100 group-hover:visible group-hover:mt-2 transition-all duration-500">
+                            <ul class="p-2">
+                                <li> <a href="" class="mega-sub-item-title">Sab Item Title</a></li>
+                                
+                                <li><a href="" class="mega-sub-item">Sab Item</a></li>
+                                <li><a href="" class="mega-sub-item">Sab Item</a></li>
+                                <li><a href="" class="mega-sub-item">Sab Item</a></li>
+                                <li><a href="" class="mega-sub-item">Sab Item</a></li>
+
+                                <div class="mt-6">
+                                    <img src="./images/products/JBL_JR 310BT_Product Image_Hero_Skyblue.png" alt="">
+                                </div>
+                            </ul>
+                            <ul class="p-2">
+                                <li> <a href="" class="mega-sub-item-title">Sab Item Title</a></li>
+                                
+                                <li><a href="" class="mega-sub-item">Sab Item</a></li>
+                                <li><a href="" class="mega-sub-item">Sab Item</a></li>
+                                <li><a href="" class="mega-sub-item">Sab Item</a></li>
+                                <li><a href="" class="mega-sub-item">Sab Item</a></li>
+                                
+                                <div class="mt-6">
+                                    <img src="./images/products/JBL_Quantum_400_Product Image_Hero 02.png" alt="">
+                                </div>
+                            </ul>
+                            <ul class="p-2">
+                                <li> <a href="" class="mega-sub-item-title">Sab Item Title</a></li>
+                                
+                                <li><a href="" class="mega-sub-item">Sab Item</a></li>
+                                <li><a href="" class="mega-sub-item">Sab Item</a></li>
+                                <li><a href="" class="mega-sub-item">Sab Item</a></li>
+                                <li><a href="" class="mega-sub-item">Sab Item</a></li>
+
+                                
+                                <div class="mt-6">
+                                    <img src="./images/products/JBLHorizon_001_dvHAMaster.png" alt="">
+                                </div>
+                            </ul>
+                            <ul class="p-2">
+                                <li> <a href="" class="mega-sub-item-title">Sab Item Title</a></li>
+                                
+                                <li><a href="" class="mega-sub-item">Sab Item</a></li>
+                                <li><a href="" class="mega-sub-item">Sab Item</a></li>
+                                <li><a href="" class="mega-sub-item">Sab Item</a></li>
+                                <li><a href="" class="mega-sub-item">Sab Item</a></li>
+
+                                
+                                <div class="mt-6">
+                                    <img src="./images/products/kisspng-beats-electronics-headphones-apple-beats-studio-red-headphones.png" alt="">
+                                </div>
+                            </ul>
+                        </div>
+                    </li>
                     <li><a href="#" class="menu-item"> Dropdown </a></li>
                     <li><a href="#" class="menu-item"> About </a></li>
                     <li><a href="#" class="menu-item"> Contact </a></li>
@@ -45,8 +100,8 @@
             <!-- Begin Button -->
             <div class="flex items-center gap-2">
                  <button type="button" class="py-1 px-3 text-white bg-gradient-to-r font-semibold border-2 border-solid border-cyan-600/[.5] from-cyan-500 to-cyan-500 brounded hover:from-cyan-600 hover:to-cyan-500 rounded-lg">Login</button>
-                 <button type="button" class="py-1 px-3 text-white bg-gradient-to-r font-semibold border-2 border-solid border-orange-600/[.5] from-orange-500 to-orange-500 brounded hover:from-orange-600 hover:to-orange-500 rounded-lg">Sign Up</button>
-                 <ion-icon name="menu" class="text-4xl font-semibold cursor-pointer transition-all duration-500" onclick="menuToggle(this)"></ion-icon>
+                 <button type="button" class="py-1 px-3 text-white bg-gradient-to-r font-semibold border-2 border-solid border-orange-600/[.5] from-orange-500 to-orange-500 brounded hover:from-orange-600 hover:to-orange-500 rounded-lg shrink-0">Sign Up</button>
+                 <ion-icon name="menu" class="text-4xl font-semibold cursor-pointer transition-all duration-500 md:hidden" onclick="menuToggle(this)"></ion-icon>
             </div>
             <!-- End Button -->
         </nav>
